@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'WBLEPrinterService_Example' do
+  pod 'WBLEPrinterService', :path => '../'
+
+  target 'WBLEPrinterService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
