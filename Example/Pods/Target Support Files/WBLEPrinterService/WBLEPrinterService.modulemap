@@ -1,0 +1,6 @@
+framework module WBLEPrinterService {
+  umbrella header "WBLEPrinterService-umbrella.h"
+
+  export *
+  module * { export * }
+}

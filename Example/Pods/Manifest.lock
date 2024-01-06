@@ -1,0 +1,16 @@
+PODS:
+  - WBLEPrinterService (0.1.0)
+
+DEPENDENCIES:
+  - WBLEPrinterService (from `../`)
+
+EXTERNAL SOURCES:
+  WBLEPrinterService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WBLEPrinterService: c0f098b3939cf3f0d43b2b3fbbe1e5e58ce94149
+
+PODFILE CHECKSUM: 8488899affba36331b676634cd666a791909fd9f
+
+COCOAPODS: 1.14.3

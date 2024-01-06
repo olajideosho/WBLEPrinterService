@@ -31,7 +31,7 @@
 		0662056FBE550216E4ACFBA0 /* Pods-WBLEPrinterService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLEPrinterService_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WBLEPrinterService_Tests/Pods-WBLEPrinterService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		19DE2D90BF7EADFFBEFC0455 /* Pods-WBLEPrinterService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLEPrinterService_Example.debug.xcconfig"; path = "Target Support Files/Pods-WBLEPrinterService_Example/Pods-WBLEPrinterService_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1A784A97D689143A6AB16282 /* Pods-WBLEPrinterService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLEPrinterService_Example.release.xcconfig"; path = "Target Support Files/Pods-WBLEPrinterService_Example/Pods-WBLEPrinterService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		508B8189C4160D8120760973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		508B8189C4160D8120760973 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WBLEPrinterService_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBLEPrinterService_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		89CC80293BDB19A48B09A8C9 /* Pods_WBLEPrinterService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBLEPrinterService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E6BA4CD04EBFEBCB3A98C5 /* Pods_WBLEPrinterService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBLEPrinterService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8FABBA7D32537B283A0A865 /* WBLEPrinterService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WBLEPrinterService.podspec; path = ../WBLEPrinterService.podspec; sourceTree = "<group>"; };
-		D8245F4F4CD6DDA15ECDB37F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A8FABBA7D32537B283A0A865 /* WBLEPrinterService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WBLEPrinterService.podspec; path = ../WBLEPrinterService.podspec; sourceTree = "<group>"; };
+		D8245F4F4CD6DDA15ECDB37F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EF685ABA286CF616B7579E94 /* Pods-WBLEPrinterService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLEPrinterService_Tests.release.xcconfig"; path = "Target Support Files/Pods-WBLEPrinterService_Tests/Pods-WBLEPrinterService_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				0662056FBE550216E4ACFBA0 /* Pods-WBLEPrinterService_Tests.debug.xcconfig */,
 				EF685ABA286CF616B7579E94 /* Pods-WBLEPrinterService_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

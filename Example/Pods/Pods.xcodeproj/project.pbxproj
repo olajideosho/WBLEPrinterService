@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1694B693A679C788894B57A6B576F0EB /* PrintHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198DCEE478136B956468B2797CC3BF6 /* PrintHead.swift */; };
+		1D55C15EDD5CD8A9E0CB58DCCAFB0C76 /* PrinterService+Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678299413B506E8AB71CDAD1DE0738F /* PrinterService+Command.swift */; };
+		1FA9C2B62BB28CD1557B3085D1FE46A6 /* PrintJustification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF96E2091C3E7BA95E13B19D807E1FF /* PrintJustification.swift */; };
+		20E7BA2AB5DEC40D7B4E385F91832EDD /* Pods-WBLEPrinterService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2DE2FF5FB17C47C3F217C7464842E07 /* Pods-WBLEPrinterService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8E87FC590175839A8B51B0D3CD4812 /* BluetoothDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFFF8E6772CC46D62DCC5CBD3BAC5C0 /* BluetoothDevice.swift */; };
+		3BAFF71D1CEE264BF6CA0A0B6B5B2E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E08D468A58B5DA0267D9133B4D5659B /* WBLEPrinterService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C2CA6CC1F6D48C5BB82F70442A73E0 /* WBLEPrinterService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C9E9536F528362958A8A169D42D1A5F /* Pods-WBLEPrinterService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1695D473DD5CC6149901256C3A2B696B /* Pods-WBLEPrinterService_Tests-dummy.m */; };
+		4CCBF3E742416C29DA771CB6B3C4BE15 /* PrinterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A592EDEFF2E6EBA107C9EB65D6A8622 /* PrinterError.swift */; };
+		4E9C0E0E788B4DEE85258111DB97E4A8 /* Pods-WBLEPrinterService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD927598428B52B866EF0185A9A6B313 /* Pods-WBLEPrinterService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D8B0F42934C89B76279B484E6E9289E /* WBLEPrinterService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B12C2F47B94FBF31C0A7728E01694672 /* WBLEPrinterService-dummy.m */; };
+		80A43740136E12D32987D183DB00DB51 /* Pods-WBLEPrinterService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2815AD580E0299AAC2B5F68E956A135F /* Pods-WBLEPrinterService_Example-dummy.m */; };
+		9AB24785C37624E0045E9D8A74AFC3F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA9630657826D66C1A56CC8BBDE78EBB /* PrinterService+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D329F3C27F21E9448361C7E86F2F3A62 /* PrinterService+Util.swift */; };
+		CF7791AF3201C92C14998A0B1A7DC0A3 /* BluetoothState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8822E532CCB4C9D8FD09008B2886DE /* BluetoothState.swift */; };
+		D26110BB660C366D48837C2359ABEE9B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BBC286253C20CF03A7EC55B180FADE /* Helper.swift */; };
+		D4BD03D2E79B3C31606078CAE3835479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F88A562D088D5BD6E5BE91D5B462D5F5 /* PrinterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B8DEF88B425CCCB0E9267ACCAF173 /* PrinterService.swift */; };
+		FE14AC819223408D41F315E1AAE00B1B /* PrintMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90799FE2FFE02C87A1DDA9F91D8CB72F /* PrintMode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D768297E54081294E9B8C9466A5C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33092E2F0A362E103C8F7CC85E3FC8AD;
+			remoteInfo = "Pods-WBLEPrinterService_Example";
+		};
+		E01524E36DD3E27790327E49C11FC3E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4432D5DC2E96824CBE17D4177098C4;
+			remoteInfo = WBLEPrinterService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E11F22E71051FF94BDC5B319AA09C09 /* Pods-WBLEPrinterService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBLEPrinterService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0F249D3BEF1C8AABFFFD0ACD42549170 /* WBLEPrinterService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBLEPrinterService-prefix.pch"; sourceTree = "<group>"; };
+		11415E75373671CE3B3E7AD724ED6102 /* WBLEPrinterService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBLEPrinterService.debug.xcconfig; sourceTree = "<group>"; };
+		11E2CE02082CAEEDF19631CD7EFB914C /* Pods-WBLEPrinterService_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WBLEPrinterService_Tests"; path = Pods_WBLEPrinterService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1695D473DD5CC6149901256C3A2B696B /* Pods-WBLEPrinterService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBLEPrinterService_Tests-dummy.m"; sourceTree = "<group>"; };
+		1BFAB033870D31DA54E48AB7C194DBC5 /* Pods-WBLEPrinterService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBLEPrinterService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		208D53B33F05D08CE8872A330157C320 /* WBLEPrinterService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBLEPrinterService.modulemap; sourceTree = "<group>"; };
+		275FC0B00C29F2F787087D74AC0E3533 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2815AD580E0299AAC2B5F68E956A135F /* Pods-WBLEPrinterService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBLEPrinterService_Example-dummy.m"; sourceTree = "<group>"; };
+		2BF96E2091C3E7BA95E13B19D807E1FF /* PrintJustification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrintJustification.swift; sourceTree = "<group>"; };
+		425D79D5161441F5BF78FB77D61FCB80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4444F96B1FF3F8ABB448C5EEB614DFA7 /* Pods-WBLEPrinterService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBLEPrinterService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A592EDEFF2E6EBA107C9EB65D6A8622 /* PrinterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrinterError.swift; sourceTree = "<group>"; };
+		65BBC286253C20CF03A7EC55B180FADE /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = WBLEPrinterService/Classes/Helper.swift; sourceTree = "<group>"; };
+		72C2CA6CC1F6D48C5BB82F70442A73E0 /* WBLEPrinterService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBLEPrinterService-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8008F58B5548A1F0ADF15505E09026D7 /* Pods-WBLEPrinterService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBLEPrinterService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85F330182D8A2C2C4A8E5F1BC975FEB6 /* Pods-WBLEPrinterService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBLEPrinterService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		86A6B818CBA0240E0432505EE2418333 /* Pods-WBLEPrinterService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBLEPrinterService_Example-Info.plist"; sourceTree = "<group>"; };
+		8A8822E532CCB4C9D8FD09008B2886DE /* BluetoothState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BluetoothState.swift; sourceTree = "<group>"; };
+		90799FE2FFE02C87A1DDA9F91D8CB72F /* PrintMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrintMode.swift; sourceTree = "<group>"; };
+		9BFFF8E6772CC46D62DCC5CBD3BAC5C0 /* BluetoothDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BluetoothDevice.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A48BA4BFEE4B32237D388A9BC5C0599B /* Pods-WBLEPrinterService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBLEPrinterService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A598FEE0B1EEDB10DAEDC5D0A168E6BE /* WBLEPrinterService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WBLEPrinterService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD8A03BD50BF92CD1FEACCE4FB3D58DB /* Pods-WBLEPrinterService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBLEPrinterService_Tests-Info.plist"; sourceTree = "<group>"; };
+		ADFAA03D0365A56448AB41F04CAFAA14 /* WBLEPrinterService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBLEPrinterService.release.xcconfig; sourceTree = "<group>"; };
+		AF5936D9460937347B2639686B613998 /* Pods-WBLEPrinterService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBLEPrinterService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B12C2F47B94FBF31C0A7728E01694672 /* WBLEPrinterService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBLEPrinterService-dummy.m"; sourceTree = "<group>"; };
+		B2DE2FF5FB17C47C3F217C7464842E07 /* Pods-WBLEPrinterService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBLEPrinterService_Example-umbrella.h"; sourceTree = "<group>"; };
+		B678299413B506E8AB71CDAD1DE0738F /* PrinterService+Command.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PrinterService+Command.swift"; sourceTree = "<group>"; };
+		BFFA77721401E5846044B1CCC7289CBC /* Pods-WBLEPrinterService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBLEPrinterService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C3AF4CC13456EDB75DE624F45872C9B8 /* WBLEPrinterService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBLEPrinterService-Info.plist"; sourceTree = "<group>"; };
+		CD5B8DEF88B425CCCB0E9267ACCAF173 /* PrinterService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrinterService.swift; sourceTree = "<group>"; };
+		D198DCEE478136B956468B2797CC3BF6 /* PrintHead.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrintHead.swift; sourceTree = "<group>"; };
+		D329F3C27F21E9448361C7E86F2F3A62 /* PrinterService+Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PrinterService+Util.swift"; sourceTree = "<group>"; };
+		D9B825B1D993C49DF32599F7D37D1BC1 /* Pods-WBLEPrinterService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBLEPrinterService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5569DA1C71CA77F61D9C5777D7A46B /* WBLEPrinterService */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBLEPrinterService; path = WBLEPrinterService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB99F4AF62C4C90CEC822D15944F8FEC /* Pods-WBLEPrinterService_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WBLEPrinterService_Example"; path = Pods_WBLEPrinterService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD927598428B52B866EF0185A9A6B313 /* Pods-WBLEPrinterService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBLEPrinterService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E2828B2B5568B53002484B3451ADA2D1 /* Pods-WBLEPrinterService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBLEPrinterService_Example.modulemap"; sourceTree = "<group>"; };
+		F2E96F42CA884B17EC6A48424E6A5A26 /* Pods-WBLEPrinterService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBLEPrinterService_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C8A07E06E2713EF246EBB7D06BCC7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BD03D2E79B3C31606078CAE3835479 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B0A3DCC46C921A67F1EA241ECC29E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB24785C37624E0045E9D8A74AFC3F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85438F5F76A4AF545D213E8B3332A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAFF71D1CEE264BF6CA0A0B6B5B2E9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD6A33062BDEF322000BEA3C4934FF3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D198DCEE478136B956468B2797CC3BF6 /* PrintHead.swift */,
+				2BF96E2091C3E7BA95E13B19D807E1FF /* PrintJustification.swift */,
+				90799FE2FFE02C87A1DDA9F91D8CB72F /* PrintMode.swift */,
+			);
+			name = Config;
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0C9A5CDF86D139980F2D98D884738C06 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B8DEF88B425CCCB0E9267ACCAF173 /* PrinterService.swift */,
+				B678299413B506E8AB71CDAD1DE0738F /* PrinterService+Command.swift */,
+				D329F3C27F21E9448361C7E86F2F3A62 /* PrinterService+Util.swift */,
+			);
+			name = Service;
+			path = WBLEPrinterService/Classes/Service;
+			sourceTree = "<group>";
+		};
+		23F774958A5E968C2FC75E99BEF8EEED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A592EDEFF2E6EBA107C9EB65D6A8622 /* PrinterError.swift */,
+				0BD6A33062BDEF322000BEA3C4934FF3 /* Config */,
+				44FD8CBD4E6CCA63550A5F9AF469B8B1 /* LowEnergy */,
+			);
+			name = Models;
+			path = WBLEPrinterService/Classes/Models;
+			sourceTree = "<group>";
+		};
+		2AE4A1415075F787158DC292D26F1ADD /* WBLEPrinterService */ = {
+			isa = PBXGroup;
+			children = (
+				65BBC286253C20CF03A7EC55B180FADE /* Helper.swift */,
+				23F774958A5E968C2FC75E99BEF8EEED /* Models */,
+				A1D5B02248254D41F2B1FB2659046C7C /* Pod */,
+				0C9A5CDF86D139980F2D98D884738C06 /* Service */,
+				B2F12F3FA3353EECA5DDB695D2EC0CBC /* Support Files */,
+			);
+			name = WBLEPrinterService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44FD8CBD4E6CCA63550A5F9AF469B8B1 /* LowEnergy */ = {
+			isa = PBXGroup;
+			children = (
+				9BFFF8E6772CC46D62DCC5CBD3BAC5C0 /* BluetoothDevice.swift */,
+				8A8822E532CCB4C9D8FD09008B2886DE /* BluetoothState.swift */,
+			);
+			name = LowEnergy;
+			path = LowEnergy;
+			sourceTree = "<group>";
+		};
+		4BC1044BB99008B7738718AAC03967B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AE4A1415075F787158DC292D26F1ADD /* WBLEPrinterService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		920EB400567B707B8DF48247AB0B7B53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB99F4AF62C4C90CEC822D15944F8FEC /* Pods-WBLEPrinterService_Example */,
+				11E2CE02082CAEEDF19631CD7EFB914C /* Pods-WBLEPrinterService_Tests */,
+				DB5569DA1C71CA77F61D9C5777D7A46B /* WBLEPrinterService */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D5B02248254D41F2B1FB2659046C7C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				275FC0B00C29F2F787087D74AC0E3533 /* LICENSE */,
+				425D79D5161441F5BF78FB77D61FCB80 /* README.md */,
+				A598FEE0B1EEDB10DAEDC5D0A168E6BE /* WBLEPrinterService.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B2F12F3FA3353EECA5DDB695D2EC0CBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				208D53B33F05D08CE8872A330157C320 /* WBLEPrinterService.modulemap */,
+				B12C2F47B94FBF31C0A7728E01694672 /* WBLEPrinterService-dummy.m */,
+				C3AF4CC13456EDB75DE624F45872C9B8 /* WBLEPrinterService-Info.plist */,
+				0F249D3BEF1C8AABFFFD0ACD42549170 /* WBLEPrinterService-prefix.pch */,
+				72C2CA6CC1F6D48C5BB82F70442A73E0 /* WBLEPrinterService-umbrella.h */,
+				11415E75373671CE3B3E7AD724ED6102 /* WBLEPrinterService.debug.xcconfig */,
+				ADFAA03D0365A56448AB41F04CAFAA14 /* WBLEPrinterService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WBLEPrinterService";
+			sourceTree = "<group>";
+		};
+		C315FDF8BFB86851704D8FC724785178 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD572BD218A2F2A055182686C9BB64D2 /* Pods-WBLEPrinterService_Example */,
+				F3869F0FAF04D78469F61B726314451D /* Pods-WBLEPrinterService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4BC1044BB99008B7738718AAC03967B7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				920EB400567B707B8DF48247AB0B7B53 /* Products */,
+				C315FDF8BFB86851704D8FC724785178 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3869F0FAF04D78469F61B726314451D /* Pods-WBLEPrinterService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E96F42CA884B17EC6A48424E6A5A26 /* Pods-WBLEPrinterService_Tests.modulemap */,
+				1BFAB033870D31DA54E48AB7C194DBC5 /* Pods-WBLEPrinterService_Tests-acknowledgements.markdown */,
+				8008F58B5548A1F0ADF15505E09026D7 /* Pods-WBLEPrinterService_Tests-acknowledgements.plist */,
+				1695D473DD5CC6149901256C3A2B696B /* Pods-WBLEPrinterService_Tests-dummy.m */,
+				AD8A03BD50BF92CD1FEACCE4FB3D58DB /* Pods-WBLEPrinterService_Tests-Info.plist */,
+				DD927598428B52B866EF0185A9A6B313 /* Pods-WBLEPrinterService_Tests-umbrella.h */,
+				D9B825B1D993C49DF32599F7D37D1BC1 /* Pods-WBLEPrinterService_Tests.debug.xcconfig */,
+				BFFA77721401E5846044B1CCC7289CBC /* Pods-WBLEPrinterService_Tests.release.xcconfig */,
+			);
+			name = "Pods-WBLEPrinterService_Tests";
+			path = "Target Support Files/Pods-WBLEPrinterService_Tests";
+			sourceTree = "<group>";
+		};
+		FD572BD218A2F2A055182686C9BB64D2 /* Pods-WBLEPrinterService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E2828B2B5568B53002484B3451ADA2D1 /* Pods-WBLEPrinterService_Example.modulemap */,
+				4444F96B1FF3F8ABB448C5EEB614DFA7 /* Pods-WBLEPrinterService_Example-acknowledgements.markdown */,
+				A48BA4BFEE4B32237D388A9BC5C0599B /* Pods-WBLEPrinterService_Example-acknowledgements.plist */,
+				2815AD580E0299AAC2B5F68E956A135F /* Pods-WBLEPrinterService_Example-dummy.m */,
+				0E11F22E71051FF94BDC5B319AA09C09 /* Pods-WBLEPrinterService_Example-frameworks.sh */,
+				86A6B818CBA0240E0432505EE2418333 /* Pods-WBLEPrinterService_Example-Info.plist */,
+				B2DE2FF5FB17C47C3F217C7464842E07 /* Pods-WBLEPrinterService_Example-umbrella.h */,
+				85F330182D8A2C2C4A8E5F1BC975FEB6 /* Pods-WBLEPrinterService_Example.debug.xcconfig */,
+				AF5936D9460937347B2639686B613998 /* Pods-WBLEPrinterService_Example.release.xcconfig */,
+			);
+			name = "Pods-WBLEPrinterService_Example";
+			path = "Target Support Files/Pods-WBLEPrinterService_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38C2DF6E498588376B71C5C20071C93A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E08D468A58B5DA0267D9133B4D5659B /* WBLEPrinterService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6282681B7307D12576A48577E2580247 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9C0E0E788B4DEE85258111DB97E4A8 /* Pods-WBLEPrinterService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF56DC6ED4A8FDCE7F3CD2D858FDB4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E7BA2AB5DEC40D7B4E385F91832EDD /* Pods-WBLEPrinterService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D1C1916DDC2B368DE543C1B582F0B5B /* Pods-WBLEPrinterService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED210C28F4C41A47AF9C75D05B67EF5D /* Build configuration list for PBXNativeTarget "Pods-WBLEPrinterService_Tests" */;
+			buildPhases = (
+				6282681B7307D12576A48577E2580247 /* Headers */,
+				94A6AD6E1ECBC482E23CA43D2AED700D /* Sources */,
+				E85438F5F76A4AF545D213E8B3332A5C /* Frameworks */,
+				AE3FFA1878BF043B4687C4F8C298A6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540D631D59ED055E81DDA0707F2A8F1F /* PBXTargetDependency */,
+			);
+			name = "Pods-WBLEPrinterService_Tests";
+			productName = Pods_WBLEPrinterService_Tests;
+			productReference = 11E2CE02082CAEEDF19631CD7EFB914C /* Pods-WBLEPrinterService_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		33092E2F0A362E103C8F7CC85E3FC8AD /* Pods-WBLEPrinterService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C127F16EFFBA395B5C17D539EEC74A7 /* Build configuration list for PBXNativeTarget "Pods-WBLEPrinterService_Example" */;
+			buildPhases = (
+				BFAF56DC6ED4A8FDCE7F3CD2D858FDB4 /* Headers */,
+				A8EA0C70AF4D6AF991D23DE4405DD236 /* Sources */,
+				D8B0A3DCC46C921A67F1EA241ECC29E2 /* Frameworks */,
+				9E0BBC8D96A445D01699E4C6C153353B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2D829CF2DB8126D3F280D33661DDAC /* PBXTargetDependency */,
+			);
+			name = "Pods-WBLEPrinterService_Example";
+			productName = Pods_WBLEPrinterService_Example;
+			productReference = DB99F4AF62C4C90CEC822D15944F8FEC /* Pods-WBLEPrinterService_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA4432D5DC2E96824CBE17D4177098C4 /* WBLEPrinterService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5BCE9709C1B751616AB827717760E0 /* Build configuration list for PBXNativeTarget "WBLEPrinterService" */;
+			buildPhases = (
+				38C2DF6E498588376B71C5C20071C93A /* Headers */,
+				E11E84EB2B0A6180000D263F72F37603 /* Sources */,
+				A2C8A07E06E2713EF246EBB7D06BCC7E /* Frameworks */,
+				5D71FDE0FE5A953A8542ADE4269FF431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBLEPrinterService;
+			productName = WBLEPrinterService;
+			productReference = DB5569DA1C71CA77F61D9C5777D7A46B /* WBLEPrinterService */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 920EB400567B707B8DF48247AB0B7B53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33092E2F0A362E103C8F7CC85E3FC8AD /* Pods-WBLEPrinterService_Example */,
+				2D1C1916DDC2B368DE543C1B582F0B5B /* Pods-WBLEPrinterService_Tests */,
+				FA4432D5DC2E96824CBE17D4177098C4 /* WBLEPrinterService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D71FDE0FE5A953A8542ADE4269FF431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0BBC8D96A445D01699E4C6C153353B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3FFA1878BF043B4687C4F8C298A6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A6AD6E1ECBC482E23CA43D2AED700D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9E9536F528362958A8A169D42D1A5F /* Pods-WBLEPrinterService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8EA0C70AF4D6AF991D23DE4405DD236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A43740136E12D32987D183DB00DB51 /* Pods-WBLEPrinterService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11E84EB2B0A6180000D263F72F37603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8E87FC590175839A8B51B0D3CD4812 /* BluetoothDevice.swift in Sources */,
+				CF7791AF3201C92C14998A0B1A7DC0A3 /* BluetoothState.swift in Sources */,
+				D26110BB660C366D48837C2359ABEE9B /* Helper.swift in Sources */,
+				4CCBF3E742416C29DA771CB6B3C4BE15 /* PrinterError.swift in Sources */,
+				F88A562D088D5BD6E5BE91D5B462D5F5 /* PrinterService.swift in Sources */,
+				1D55C15EDD5CD8A9E0CB58DCCAFB0C76 /* PrinterService+Command.swift in Sources */,
+				AA9630657826D66C1A56CC8BBDE78EBB /* PrinterService+Util.swift in Sources */,
+				1694B693A679C788894B57A6B576F0EB /* PrintHead.swift in Sources */,
+				1FA9C2B62BB28CD1557B3085D1FE46A6 /* PrintJustification.swift in Sources */,
+				FE14AC819223408D41F315E1AAE00B1B /* PrintMode.swift in Sources */,
+				7D8B0F42934C89B76279B484E6E9289E /* WBLEPrinterService-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540D631D59ED055E81DDA0707F2A8F1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WBLEPrinterService_Example";
+			target = 33092E2F0A362E103C8F7CC85E3FC8AD /* Pods-WBLEPrinterService_Example */;
+			targetProxy = 63D768297E54081294E9B8C9466A5C7E /* PBXContainerItemProxy */;
+		};
+		CF2D829CF2DB8126D3F280D33661DDAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WBLEPrinterService;
+			target = FA4432D5DC2E96824CBE17D4177098C4 /* WBLEPrinterService */;
+			targetProxy = E01524E36DD3E27790327E49C11FC3E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		47BFA8B8E75E3E2EFF03F02978D012F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5936D9460937347B2639686B613998 /* Pods-WBLEPrinterService_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBLEPrinterService_Example/Pods-WBLEPrinterService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBLEPrinterService_Example/Pods-WBLEPrinterService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5682ACBD12F4B622DA76C365532D46F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B825B1D993C49DF32599F7D37D1BC1 /* Pods-WBLEPrinterService_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBLEPrinterService_Tests/Pods-WBLEPrinterService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBLEPrinterService_Tests/Pods-WBLEPrinterService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		633CE024725E80612C53950B348F18C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADFAA03D0365A56448AB41F04CAFAA14 /* WBLEPrinterService.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBLEPrinterService/WBLEPrinterService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBLEPrinterService/WBLEPrinterService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBLEPrinterService/WBLEPrinterService.modulemap";
+				PRODUCT_MODULE_NAME = WBLEPrinterService;
+				PRODUCT_NAME = WBLEPrinterService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A25D200FEB76918D429D95FCBCA2915C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F330182D8A2C2C4A8E5F1BC975FEB6 /* Pods-WBLEPrinterService_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBLEPrinterService_Example/Pods-WBLEPrinterService_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBLEPrinterService_Example/Pods-WBLEPrinterService_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCF8E109FA839FD4FD9433EDBF6667B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11415E75373671CE3B3E7AD724ED6102 /* WBLEPrinterService.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBLEPrinterService/WBLEPrinterService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBLEPrinterService/WBLEPrinterService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBLEPrinterService/WBLEPrinterService.modulemap";
+				PRODUCT_MODULE_NAME = WBLEPrinterService;
+				PRODUCT_NAME = WBLEPrinterService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1DBE689157F84459BFCE0F6DD5E63AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFFA77721401E5846044B1CCC7289CBC /* Pods-WBLEPrinterService_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBLEPrinterService_Tests/Pods-WBLEPrinterService_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBLEPrinterService_Tests/Pods-WBLEPrinterService_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C127F16EFFBA395B5C17D539EEC74A7 /* Build configuration list for PBXNativeTarget "Pods-WBLEPrinterService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25D200FEB76918D429D95FCBCA2915C /* Debug */,
+				47BFA8B8E75E3E2EFF03F02978D012F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5BCE9709C1B751616AB827717760E0 /* Build configuration list for PBXNativeTarget "WBLEPrinterService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF8E109FA839FD4FD9433EDBF6667B8 /* Debug */,
+				633CE024725E80612C53950B348F18C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED210C28F4C41A47AF9C75D05B67EF5D /* Build configuration list for PBXNativeTarget "Pods-WBLEPrinterService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5682ACBD12F4B622DA76C365532D46F9 /* Debug */,
+				E1DBE689157F84459BFCE0F6DD5E63AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
