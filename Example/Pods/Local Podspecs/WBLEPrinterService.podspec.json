@@ -18,5 +18,12 @@
   "platforms": {
     "ios": "12.0"
   },
-  "source_files": "WBLEPrinterService/Classes/**/*"
+  "swift_versions": [
+    "4.0",
+    "4.1",
+    "4.2",
+    "5.0"
+  ],
+  "source_files": "WBLEPrinterService/Classes/**/*",
+  "swift_version": "5.0"
 }

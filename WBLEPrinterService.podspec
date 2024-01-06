@@ -29,6 +29,7 @@ A Low Energy Bluetooth Printer Service that provides functionality for interacti
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
+  s.swift_versions = ['4.0', '4.1', '4.2', '5.0']
 
   s.source_files = 'WBLEPrinterService/Classes/**/*'
   
