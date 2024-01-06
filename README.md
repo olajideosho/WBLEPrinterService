@@ -1,6 +1,5 @@
 # WBLEPrinterService
 
-[![CI Status](https://img.shields.io/travis/Olajide Osho/WBLEPrinterService.svg?style=flat)](https://travis-ci.org/Olajide Osho/WBLEPrinterService)
 [![Version](https://img.shields.io/cocoapods/v/WBLEPrinterService.svg?style=flat)](https://cocoapods.org/pods/WBLEPrinterService)
 [![License](https://img.shields.io/cocoapods/l/WBLEPrinterService.svg?style=flat)](https://cocoapods.org/pods/WBLEPrinterService)
 [![Platform](https://img.shields.io/cocoapods/p/WBLEPrinterService.svg?style=flat)](https://cocoapods.org/pods/WBLEPrinterService)
@@ -10,6 +9,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+1. Minimum iOS Version is 12.0
+2. In the Xcode project file, select your Build Target. Navigate to Build Options under Build Settings and set User Script Sandboxing to **No**
 
 ## Installation
 

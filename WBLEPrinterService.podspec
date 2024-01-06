@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WBLEPrinterService'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A Low Energy Bluetooth Printer Service that provides functionality for interacting with a Bluetooth 4.0 Low Energy Printer'
 
 # This description is used to generate tags and improve search results.

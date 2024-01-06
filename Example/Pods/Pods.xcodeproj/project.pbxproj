@@ -53,10 +53,10 @@
 		1695D473DD5CC6149901256C3A2B696B /* Pods-WBLEPrinterService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBLEPrinterService_Tests-dummy.m"; sourceTree = "<group>"; };
 		1BFAB033870D31DA54E48AB7C194DBC5 /* Pods-WBLEPrinterService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBLEPrinterService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		208D53B33F05D08CE8872A330157C320 /* WBLEPrinterService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBLEPrinterService.modulemap; sourceTree = "<group>"; };
-		275FC0B00C29F2F787087D74AC0E3533 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		275FC0B00C29F2F787087D74AC0E3533 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2815AD580E0299AAC2B5F68E956A135F /* Pods-WBLEPrinterService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBLEPrinterService_Example-dummy.m"; sourceTree = "<group>"; };
 		2BF96E2091C3E7BA95E13B19D807E1FF /* PrintJustification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrintJustification.swift; sourceTree = "<group>"; };
-		425D79D5161441F5BF78FB77D61FCB80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		425D79D5161441F5BF78FB77D61FCB80 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4444F96B1FF3F8ABB448C5EEB614DFA7 /* Pods-WBLEPrinterService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBLEPrinterService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A592EDEFF2E6EBA107C9EB65D6A8622 /* PrinterError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrinterError.swift; sourceTree = "<group>"; };
 		65BBC286253C20CF03A7EC55B180FADE /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = WBLEPrinterService/Classes/Helper.swift; sourceTree = "<group>"; };
@@ -68,9 +68,9 @@
 		8A8822E532CCB4C9D8FD09008B2886DE /* BluetoothState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BluetoothState.swift; sourceTree = "<group>"; };
 		90799FE2FFE02C87A1DDA9F91D8CB72F /* PrintMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrintMode.swift; sourceTree = "<group>"; };
 		9BFFF8E6772CC46D62DCC5CBD3BAC5C0 /* BluetoothDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BluetoothDevice.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A48BA4BFEE4B32237D388A9BC5C0599B /* Pods-WBLEPrinterService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBLEPrinterService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A598FEE0B1EEDB10DAEDC5D0A168E6BE /* WBLEPrinterService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WBLEPrinterService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A598FEE0B1EEDB10DAEDC5D0A168E6BE /* WBLEPrinterService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WBLEPrinterService.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		AD8A03BD50BF92CD1FEACCE4FB3D58DB /* Pods-WBLEPrinterService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBLEPrinterService_Tests-Info.plist"; sourceTree = "<group>"; };
 		ADFAA03D0365A56448AB41F04CAFAA14 /* WBLEPrinterService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBLEPrinterService.release.xcconfig; sourceTree = "<group>"; };
 		AF5936D9460937347B2639686B613998 /* Pods-WBLEPrinterService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBLEPrinterService_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +125,6 @@
 				2BF96E2091C3E7BA95E13B19D807E1FF /* PrintJustification.swift */,
 				90799FE2FFE02C87A1DDA9F91D8CB72F /* PrintMode.swift */,
 			);
-			name = Config;
 			path = Config;
 			sourceTree = "<group>";
 		};
@@ -170,7 +169,6 @@
 				9BFFF8E6772CC46D62DCC5CBD3BAC5C0 /* BluetoothDevice.swift */,
 				8A8822E532CCB4C9D8FD09008B2886DE /* BluetoothState.swift */,
 			);
-			name = LowEnergy;
 			path = LowEnergy;
 			sourceTree = "<group>";
 		};
@@ -700,8 +698,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
