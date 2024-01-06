@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A Low Energy Bluetooth Printer Service that provides functionality for interacting with a Bluetooth 4.0 Low Energy Printer
+A Low Energy Bluetooth Printer Service that provides functionality for interacting with a Bluetooth 4.0 Low Energy Printer.
                        DESC
 
   s.homepage         = 'https://github.com/olajideosho/WBLEPrinterService'
